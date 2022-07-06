@@ -1,0 +1,7 @@
+Changes:
+Allies also interfere with jumps
+Damaged weapons only have a malus to hit, not fire rate. Spawned projectile amount can be modified, however.
+By default, everyone now has +2 to hit.  Impulse thrusters give a -2 to hit, when active. (they count as a passive defense)
+Components can be Obliterated - a step beyond Destroyed.  Obliterated components can not be repaired.
+Exterior takes damage until Destroyed, then Interior takes damage until Destroyed, then Exterior is Obliterated, then Interior is Obliterated, then random internal takes damage.
+Multiple Jumpdrives: take best range, take best time.  Additional functional drives provide +1 range.

@@ -1,0 +1,464 @@
+{
+  "weaponTypes": [
+    "Missile",
+    "Energy"
+  ],
+  "bankDefenseProjectileTypeDamage": {
+    "Shields": {
+      "Missile": 1,
+      "Energy": 2
+    }
+  },
+  "distances": {
+    "0": "Melee",
+    "1": "Close",
+    "2": "Short",
+    "3": "Medium",
+    "4": "Long",
+    "5": "Very Long",
+    "6": "Extreme"
+  },
+  "components": {
+    "Jump Drive": {
+      "jumpTime": {
+        "DAMAGED": 2,
+        "OBLITERATED": 0,
+        "JURY_RIGGED": 2,
+        "RIGGING": 0,
+        "REPAIRING": 2,
+        "INTACT": 1,
+        "DESTROYED": 0
+      },
+      "jumpDistance": {
+        "DAMAGED": 2,
+        "OBLITERATED": 0,
+        "JURY_RIGGED": 2,
+        "RIGGING": 0,
+        "REPAIRING": 2,
+        "INTACT": 2,
+        "DESTROYED": 0
+      },
+      "componentName": "Jump Drive",
+      "commons": 5,
+      "energetics": 0,
+      "xotics": 0,
+      "owningFactions": [
+        "Red",
+        "Blue",
+        "Yellow",
+        "Purple",
+        "Orange",
+        "Green"
+      ],
+      "powerRequirement": 4,
+      "canBeDamaged": true,
+      "repairable": true,
+      "augmentSlot": false
+    },
+    "Shield Generator": {
+      "defenseResource": "Shields",
+      "maxValue": {
+        "DAMAGED": 1,
+        "OBLITERATED": 0,
+        "JURY_RIGGED": 1,
+        "RIGGING": 0,
+        "REPAIRING": 1,
+        "INTACT": 2,
+        "DESTROYED": 0
+      },
+      "perTurnRecharge": {
+        "DAMAGED": 1,
+        "OBLITERATED": 0,
+        "JURY_RIGGED": 1,
+        "RIGGING": 0,
+        "REPAIRING": 1,
+        "INTACT": 1,
+        "DESTROYED": 0
+      },
+      "componentName": "Shield Generator",
+      "commons": 4,
+      "energetics": 0,
+      "xotics": 0,
+      "owningFactions": [
+        "Red",
+        "Blue",
+        "Yellow",
+        "Purple",
+        "Orange",
+        "Green"
+      ],
+      "powerRequirement": 4,
+      "canBeDamaged": true,
+      "repairable": true,
+      "augmentSlot": false
+    },
+    "Point Defense": {
+      "projectileTypeRoll": {
+        "DAMAGED": {
+          "Energy": 5,
+          "Missile": 5
+        },
+        "OBLITERATED": {
+          "Energy": 0,
+          "Missile": 0
+        },
+        "JURY_RIGGED": {
+          "Energy": 5,
+          "Missile": 5
+        },
+        "RIGGING": {
+          "Energy": 0,
+          "Missile": 0
+        },
+        "REPAIRING": {
+          "Energy": 5,
+          "Missile": 5
+        },
+        "INTACT": {
+          "Energy": 3,
+          "Missile": 3
+        },
+        "DESTROYED": {
+          "Energy": 0,
+          "Missile": 0
+        }
+      },
+      "shutsDownOnSuccess": false,
+      "stackingMalus": -2,
+      "projectileTypeDamage": {
+        "DAMAGED": {
+          "Energy": 2,
+          "Missile": 0
+        },
+        "OBLITERATED": {
+          "Energy": 0,
+          "Missile": 0
+        },
+        "JURY_RIGGED": {
+          "Energy": 1,
+          "Missile": 0
+        },
+        "RIGGING": {
+          "Energy": 0,
+          "Missile": 0
+        },
+        "REPAIRING": {
+          "Energy": 1,
+          "Missile": 0
+        },
+        "INTACT": {
+          "Energy": 1,
+          "Missile": 0
+        },
+        "DESTROYED": {
+          "Energy": 0,
+          "Missile": 0
+        }
+      },
+      "componentName": "Point Defense",
+      "commons": 3,
+      "energetics": 0,
+      "xotics": 0,
+      "owningFactions": [
+        "Red",
+        "Blue",
+        "Yellow",
+        "Purple",
+        "Orange",
+        "Green"
+      ],
+      "powerRequirement": 3,
+      "canBeDamaged": true,
+      "repairable": true,
+      "augmentSlot": false
+    },
+    "Reactor": {
+      "powerSupply": {
+        "DAMAGED": 6,
+        "OBLITERATED": 0,
+        "JURY_RIGGED": 6,
+        "RIGGING": 0,
+        "REPAIRING": 6,
+        "INTACT": 12,
+        "DESTROYED": 0
+      },
+      "componentName": "Reactor",
+      "commons": 5,
+      "energetics": 0,
+      "xotics": 0,
+      "owningFactions": [
+        "Red",
+        "Blue",
+        "Yellow",
+        "Purple",
+        "Orange",
+        "Green"
+      ],
+      "powerRequirement": 0,
+      "canBeDamaged": true,
+      "repairable": true,
+      "augmentSlot": false
+    },
+    "Laser Array": {
+      "weaponType": "Energy",
+      "overkill": 0,
+      "projectileHealth": 2,
+      "speed": {
+        "DAMAGED": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "OBLITERATED": {},
+        "JURY_RIGGED": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "RIGGING": {},
+        "REPAIRING": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "INTACT": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0
+        },
+        "DESTROYED": {}
+      },
+      "hitChance": {
+        "DAMAGED": {
+          "1": 3,
+          "2": 4,
+          "3": 5,
+          "4": 7,
+          "5": 10
+        },
+        "OBLITERATED": {},
+        "JURY_RIGGED": {
+          "1": 3,
+          "2": 4,
+          "3": 5,
+          "4": 7,
+          "5": 10
+        },
+        "RIGGING": {},
+        "REPAIRING": {
+          "1": 3,
+          "2": 4,
+          "3": 5,
+          "4": 7,
+          "5": 10
+        },
+        "INTACT": {
+          "1": 3,
+          "2": 4,
+          "3": 5,
+          "4": 7,
+          "5": 10
+        },
+        "DESTROYED": {}
+      },
+      "projectilesFired": {
+        "DAMAGED": 1,
+        "OBLITERATED": 0,
+        "JURY_RIGGED": 1,
+        "RIGGING": 0,
+        "REPAIRING": 1,
+        "INTACT": 2,
+        "DESTROYED": 0
+      },
+      "componentName": "Laser Array",
+      "commons": 2,
+      "energetics": 0,
+      "xotics": 0,
+      "owningFactions": [
+        "Red",
+        "Blue",
+        "Yellow",
+        "Purple",
+        "Orange",
+        "Green"
+      ],
+      "powerRequirement": 3,
+      "canBeDamaged": true,
+      "repairable": true,
+      "augmentSlot": false
+    },
+    "Impulse Thruster": {
+      "receiveHitModifier": {
+        "DAMAGED": 1,
+        "OBLITERATED": 0,
+        "JURY_RIGGED": 1,
+        "RIGGING": 0,
+        "REPAIRING": 1,
+        "INTACT": 2,
+        "DESTROYED": 0
+      },
+      "stackingModifierSame": false,
+      "stackingModifierDifferent": false,
+      "componentName": "Impulse Thruster",
+      "commons": 3,
+      "energetics": 0,
+      "xotics": 0,
+      "owningFactions": [
+        "Red",
+        "Blue",
+        "Yellow",
+        "Purple",
+        "Orange",
+        "Green"
+      ],
+      "powerRequirement": 1,
+      "canBeDamaged": true,
+      "repairable": true,
+      "augmentSlot": false
+    },
+    "Missile Launcher": {
+      "weaponType": "Missile",
+      "overkill": 0,
+      "projectileHealth": 2,
+      "speed": {
+        "DAMAGED": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 1,
+          "6": 2
+        },
+        "OBLITERATED": {},
+        "JURY_RIGGED": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 1,
+          "6": 2
+        },
+        "RIGGING": {},
+        "REPAIRING": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 1,
+          "6": 2
+        },
+        "INTACT": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 1,
+          "6": 2
+        },
+        "DESTROYED": {}
+      },
+      "hitChance": {
+        "DAMAGED": {
+          "1": 5,
+          "2": 5,
+          "3": 5,
+          "4": 5,
+          "5": 7,
+          "6": 9
+        },
+        "OBLITERATED": {},
+        "JURY_RIGGED": {
+          "1": 5,
+          "2": 5,
+          "3": 5,
+          "4": 5,
+          "5": 7,
+          "6": 9
+        },
+        "RIGGING": {},
+        "REPAIRING": {
+          "1": 5,
+          "2": 5,
+          "3": 5,
+          "4": 5,
+          "5": 7,
+          "6": 9
+        },
+        "INTACT": {
+          "1": 3,
+          "2": 3,
+          "3": 3,
+          "4": 3,
+          "5": 5,
+          "6": 7
+        },
+        "DESTROYED": {}
+      },
+      "projectilesFired": {
+        "DAMAGED": 1,
+        "OBLITERATED": 0,
+        "JURY_RIGGED": 1,
+        "RIGGING": 0,
+        "REPAIRING": 1,
+        "INTACT": 1,
+        "DESTROYED": 0
+      },
+      "componentName": "Missile Launcher",
+      "commons": 4,
+      "energetics": 0,
+      "xotics": 0,
+      "owningFactions": [
+        "Red",
+        "Blue",
+        "Yellow",
+        "Purple",
+        "Orange",
+        "Green"
+      ],
+      "powerRequirement": 1,
+      "canBeDamaged": true,
+      "repairable": true,
+      "augmentSlot": false
+    }
+  },
+  "factions": {
+    "Red": {
+      "factionName": "Red",
+      "damconTime": 3,
+      "deathPerc": 70
+    },
+    "Blue": {
+      "factionName": "Blue",
+      "damconTime": 3,
+      "deathPerc": 70
+    },
+    "Yellow": {
+      "factionName": "Yellow",
+      "damconTime": 3,
+      "deathPerc": 70
+    },
+    "Purple": {
+      "factionName": "Purple",
+      "damconTime": 3,
+      "deathPerc": 70
+    },
+    "Orange": {
+      "factionName": "Orange",
+      "damconTime": 3,
+      "deathPerc": 70
+    },
+    "Green": {
+      "factionName": "Green",
+      "damconTime": 3,
+      "deathPerc": 70
+    }
+  }
+}
